@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    gap: 60px;
+}
+
+/* Phone */
+.phone img {
+    width: 350px;
+}
+
+/* Login Section */
+.login-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Login Box */
+.login-box {
+    background: #fff;
+    padding: 40px;
+    border: 1px solid #dbdbdb;
+    width: 320px;
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    font-family: cursive;
+    margin-bottom: 25px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #007cd1;
+}
+
+/* Divider */
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.divider span {
+    flex: 1;
+    height: 1px;
+    background: #dbdbdb;
+}
+
+.divider p {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-size: 13px;
+}
+
+/* Facebook Login */
+.fb-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.fb-login img {
+    width: 16px;
+}
+
+/* Forgot Password */
+.forgot {
+    color: #00376b;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+/* Signup Box */
+.signup-box {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    width: 320px;
+}
+
+.signup-box span {
+    color: #0095f6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-size: 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .phone {
+        display: none;
+    }
+}
